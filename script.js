@@ -37,6 +37,5 @@ document.getElementById('contactForm').addEventListener('submit', event => {
   const message = form.elements.message.value.trim();
   const subject = encodeURIComponent(`ABNO Tech project enquiry — ${service}`);
   const body = encodeURIComponent(`Hello ABNO Tech,\n\nMy name is ${name}.\nMy email: ${email}\nService: ${service}\n\nProject details:\n${message}\n\nThank you.`);
-  // Replace this placeholder with your real email address before publishing.
-  window.location.href = `mailto:hello@abnotech.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:techabno@gmail.com?subject=${subject}&body=${body}`;
 });
