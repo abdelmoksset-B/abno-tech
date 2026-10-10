@@ -12,7 +12,21 @@ nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
   menuButton.setAttribute('aria-label', 'Open navigation');
   menuButton.textContent = '☰';
 }));
-document.getElementById('year').textContent = new Date().getFullYear();
+
+
+document.addEventListener('click', event => {
+  const isOpen = nav.classList.contains('open');
+  const clickedOutsideNav = !nav.contains(event.target);
+  const clickedOutsideButton = !menuButton.contains(event.target);
+
+  if (isOpen && clickedOutsideNav && clickedOutsideButton) {
+    nav.classList.remove('open');
+    menuButton.setAttribute('aria-expanded', 'false');
+    menuButton.setAttribute('aria-label', 'Open navigation');
+    menuButton.textContent = '☰';
+  }
+});
+
 
 document.getElementById('contactForm').addEventListener('submit', event => {
   event.preventDefault();
