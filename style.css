@@ -63,7 +63,7 @@ button,input,textarea,select{font:inherit}
   padding:11px 14px;font-size:11px;box-shadow:0 10px 30px #0005}
 .floating-chip span{color:var(--cyan);margin-right:7px}
 .chip-top{top:58px;right:0}
-.chip-bottom{bottom:54px;left:0}
+.chip-bottom{bottom:73px;left:0}
 .chip-dot{display:inline-block}
 .services,.work{background:#071727}
 .section-heading{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:32px}
@@ -117,7 +117,7 @@ button,input,textarea,select{font:inherit}
 .about{display:grid;grid-template-columns:.9fr 1.2fr .9fr;align-items:center;gap:45px;background:linear-gradient(120deg,#081827,#0a2137)}
 .about-mark{min-height:230px;border-radius:15px;border:1px solid var(--line);background:radial-gradient(circle,#0d6c88 0,transparent 60%),
   #071725;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:25px}
-.about-mark img{width:115px;height:115px;object-fit:cover;border-radius:15px;mix-blend-mode:screen}
+.about-mark img{width:125px;height:115px;object-fit:cover;border-radius:15px;mix-blend-mode:screen}
 .mark-caption{text-align:center;font-size:14px;font-weight:800;letter-spacing:2px;margin-top:12px}
 .mark-caption span{font-size:9px;letter-spacing:1.2px;color:var(--cyan)}
 .about-copy>p:not(.section-kicker){font-size:13px;color:var(--muted);margin:18px 0 22px}
@@ -182,7 +182,7 @@ button,input,textarea,select{font:inherit}
   .mock-content{padding:25px}
   .mock-content h2{font-size:34px}
   .chip-top{right:0;top:30px}
-  .chip-bottom{bottom:25px;left:0}
+  .chip-bottom{bottom:65px;left:0}
   .trust-row{gap:14px}
   .trust-row>div{min-width:42%}
   .section-heading{display:block}
@@ -203,3 +203,5 @@ button,input,textarea,select{font:inherit}
   .footer-links{order:3;flex-wrap:wrap;justify-content:center}
   .footer>small{order:4}.footer-brand{order:1}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+
